@@ -1,0 +1,70 @@
+body {
+  font-family: tahoma;
+}	
+table {
+  width:100%;
+  table-layout: fixed;
+  font-size: 100%;
+}
+tr {
+	height: 100px;
+}
+th {
+	text-align: center;
+}
+td {
+	text-align: right;
+	vertical-align: top;
+}
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+span {
+	gap: 0;
+}
+
+.container {
+	width = 100%;
+	background: #f2f2f2;
+}
+.header {
+	padding: 10px 20px;
+	background: green;
+	text-align: center;
+}
+.footer {
+	background: yellow;            
+	text-align: center;
+	padding: 5px;
+}
+.middle {
+	display: flex;
+	/* flex: 1; */
+	height: 200px;
+}
+.wrapper {
+	display: flex;
+	padding: 0;
+	/* width: 50%; */
+	height: 100%;
+	text-align: right;
+	background: #999999;
+}
+.nav, .section {
+	display: inline-block;
+	height: 100%;
+	padding: px;
+	text-align: right;
+	vertical-align: bottom;
+	/* min-height: 170px; */
+	/* box-sizing: border-box; */
+}
+.nav {            
+	width: 30%;
+	background: cyan;
+}
+.section {
+	width: 70%;
+	background: #e1e1e1;
+}
